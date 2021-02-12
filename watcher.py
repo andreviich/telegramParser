@@ -2,8 +2,8 @@ from telethon import TelegramClient, sync, events
 import winsound
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
-api_id = 2783469
-api_hash = 'fd577f8634d249fee192cdb9aabddc04'
+api_id = XXXXXXX
+api_hash = 'XXXXXXXXXXXXXXXXXXXXXXX'
 
 client = TelegramClient('session_name', api_id, api_hash)
 @client.on(events.NewMessage(incoming=True))
